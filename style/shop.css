@@ -1,0 +1,27 @@
+.shop {
+    padding: 140px 0 142px ;
+}
+.shop__title{
+    font-family:var(--ff);
+font-weight: 400;
+font-size: 40px;
+line-height: 100%;
+text-transform: uppercase;
+}
+
+.shop__text1{
+    font-family: var(--ff);
+font-weight: 400;
+font-size: 24px;
+line-height: 100%;
+margin-top: 40px;
+}
+
+.shop__text2{
+    font-family: var(--ff);
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+margin-top: 20px;
+color: var(--gray);
+}

@@ -10,10 +10,22 @@
     font-weight: 400; 
 }
 
+:root{
+    --black: #242424;
+    --white: #EEEEEE;
+    --gray: #6C6C6C;
+    --ff:"Share Tech Mono", sans-serif;
+    --white2: #F9F8F4;
+}
+
 .container{
-    max-width: 1140px;
+    max-width: 1920px;
     width: 100%;
     height: 100%; 
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 108px;
+}
+
+.body{
+        color: var(--white2);
 }
