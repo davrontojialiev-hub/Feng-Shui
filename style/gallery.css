@@ -29,7 +29,7 @@
 .gallery__info {
     position: absolute;
     bottom: 20px;
-    left: 20px;
+    left: 24px;
     color: var(--ff);
     font-family: var(--ff);
     z-index: 2;
@@ -55,8 +55,8 @@
 
 .gallery__badge {
     position: absolute;
-    top: 20px;
-    left: 20px;
+    top: 24px;
+    left: 24px;
     background: var(--black);
     color:var(--white);
     padding: 17px 40px;

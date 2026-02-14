@@ -1,31 +1,37 @@
-.shop {
-    padding: 140px 0 140px ;
+.about {
+    margin-top: 60px;
 }
-.shop__title{
+
+.about__title{
     font-family:var(--ff);
 font-weight: 400;
 font-size: 40px;
 line-height: 100%;
 text-transform: uppercase;
-  display: flex;       
-  align-items: center;
-gap: 20px;
+color: var(--black);
 }
 
-.shop__text1{
+.about__text1{
     font-family: var(--ff);
 font-weight: 400;
 font-size: 24px;
 line-height: 100%;
+color: var(--black);
 margin-top: 40px;
+margin-bottom: 20px;
 }
 
-.shop__text2{
+.about__text2{
     font-family: var(--ff);
 font-weight: 400;
 font-size: 16px;
-line-height: 1.4;
-margin-top: 20px;
+line-height: 100%;
 color: var(--gray);
+margin-bottom: 60px;
 }
 
+.about__image img{
+     width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
