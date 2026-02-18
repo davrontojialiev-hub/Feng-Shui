@@ -3,7 +3,6 @@
 }
 .shop__title{
     font-family:var(--ff);
-font-weight: 400;
 font-size: 30px;
 line-height: 100%;
 text-transform: uppercase;
@@ -14,7 +13,6 @@ gap: 20px;
 
 .shop__text1{
     font-family: var(--ff);
-font-weight: 400;
 font-size: 24px;
 line-height: 100%;
 margin-top: 40px;
@@ -22,7 +20,6 @@ margin-top: 40px;
 
 .shop__text2{
     font-family: var(--ff);
-font-weight: 400;
 font-size: 16px;
 line-height: 1.4;
 margin-top: 20px;
@@ -36,17 +33,6 @@ color: var(--gray);
     object-fit: cover; 
     display: block;
 }
-
-    
-@media screen and (max-width: 768px){
-       .shop__title svg {
-        width: 100px;
-        height: 3px;
-        margin-left: 15px;
-        vertical-align: middle;
-    }
-    }
-
 
     @media screen and (max-width: 1024px) {
     .shop__title {
@@ -83,20 +69,23 @@ color: var(--gray);
         grid-template-columns: 2fr 2fr; 
         gap: 20px;
     }
-}
+       .shop__title svg {
+        width: 100px;
+        height: 3px;
+        margin-left: 15px;
+        vertical-align: middle;
+    }
+    }
 
 @media screen and (max-width: 480px) {
     .shop {
         padding: 80px 10px;
     }
     .shop__title {
-        font-size: 22px;
+        font-size: 28px;
         gap: 10px;
     }
-    .shop__text1,
-    .shop__text2 {
-        display: none;
-    }
+
     .gallery__grid {
         grid-template-columns: 1fr;
         gap: 15px;

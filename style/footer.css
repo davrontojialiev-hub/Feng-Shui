@@ -88,6 +88,7 @@ color: var(--black);
         align-items: center;
         gap: 20px;
         text-align: center;
+        margin-top: 125px;
     }
 
     .footer__nav-list {
@@ -106,7 +107,7 @@ color: var(--black);
     }
 
     .footer__nav-list {
-        gap: 10px;
+        gap: 15px;
         font-size: 14px;
     }
 
@@ -115,11 +116,12 @@ color: var(--black);
     }
 
     .footer__title {
-        font-size: 18px;
+        font-size: 22px;
     }
 
     .footer__social img {
         width: 20px;
         height: 20px;
     }
+    
 }

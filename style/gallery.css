@@ -99,6 +99,101 @@ text-transform: uppercase;
 }
 
 
+@media (max-width: 1024px) {
+
+    /* ===== Grid ===== */
+    .gallery__grid {
+        gap: 20px;
+    }
+
+    /* ===== Badge ===== */
+    .gallery__badge {
+        top: 20px;
+        left: 20px;
+        font-size: 20px;
+        padding: 14px 28px;
+    }
+
+    /* ===== Info ===== */
+    .gallery__info {
+        bottom: 20px;
+        left: 20px;
+    }
+
+    /* ===== Text ===== */
+    .gallery__name {
+        font-size: 22px;
+        margin-bottom: 14px;
+    }
+
+    .gallery__meta {
+        font-size: 15px;
+        margin-bottom: 18px;
+    }
+
+    .gallery__price {
+        font-size: 20px;
+    }
+
+    /* ===== Чтобы всё выглядело ровно ===== */
+    .gallery__card img {
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+
+    .gallery__grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 18px;
+    }
+
+    .gallery__card:nth-child(3) {
+        grid-row: span 2;
+    }
+
+    .gallery__card:nth-child(2) {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .gallery__badge {
+        top: 12px;
+        left: 12px;
+        font-size: 13px;
+        padding: 10px 16px;
+    }
+
+    .gallery__info {
+        bottom: 18px;
+        left: 18px;
+    }
+
+    .gallery__name {
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+
+    .gallery__meta {
+        font-size: 14px;
+        margin-bottom: 14px;
+    }
+
+    .gallery__price {
+        font-size: 18px;
+    }
+
+    .gallery__card img {
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+
+
 @media (max-width: 480px) {
 
     .gallery__grid,
@@ -145,9 +240,14 @@ text-transform: uppercase;
 }
 .gallery__badge,
     .bestsellers__badge {
-        font-size: 11px;
-        padding: 3px 7px;
-        border-radius: 5px;
+    top: 14px;
+    left: 14px;
+
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
     }
 
     .bestsellers__icons {
@@ -164,7 +264,6 @@ text-transform: uppercase;
     height: 20px;
 }
 
-}
 
 
 @media (max-width: 480px) {
@@ -186,10 +285,30 @@ text-transform: uppercase;
 .bestsellers__info {
     flex-grow: 1;
 }
+.gallery__info {
+    bottom: 16px;
+    left: 16px;
+}
+
 
 .bestsellers__button {
     margin-top: auto;
 }
 
+.gallery__name {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.gallery__meta {
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+.gallery__price {
+    font-size: 16px;
+}
 
 }
+
+
