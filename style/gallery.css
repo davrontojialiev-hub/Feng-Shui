@@ -290,7 +290,16 @@ text-transform: uppercase;
     left: 16px;
 }
 
+.gallery__badge
+     {
+    top: 14px;
+    left: 14px;
 
+    font-size: 15px;
+    padding:10px 20px;
+    border-radius: 6px;
+    }
+    
 .bestsellers__button {
     margin-top: auto;
 }
@@ -312,3 +321,20 @@ text-transform: uppercase;
 }
 
 
+
+@media (max-width: 410px) {
+    .gallery__badge,
+    .bestsellers__badge {
+    top: 9px;
+    left: 14px;
+
+    font-size: 11px;
+    padding:9px 20px;
+    border-radius: 6px;
+}
+.gallery__name {
+    font-size: 18px;
+    margin-bottom:0;
+}
+
+}
